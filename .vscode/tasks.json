@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Streamlit app",
+			"type": "shell",
+			"command": "C:/Users/EAN11-SYS/AppData/Local/Programs/Python/Python314/python.exe",
+			"args": [
+				"-m",
+				"streamlit",
+				"run",
+				"app.py",
+				"--server.headless",
+				"true",
+				"--server.port",
+				"8501"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
